@@ -1,30 +1,29 @@
+// let x = 5
 
-
+// if (x === 5) {
+//     console.log('x is equal to 5!');
+// } else if (x ==6 ) {
+//     console.log("x is not equal to 5!");
+// } else {
+//     console.log("x is NOT equal to 5 or 6!")
+// }
 // -------------------------------------------
 
-console.log("Check Your Answers Here!");
+// console.log("Check Your Answers Here!");
 
 // 🚧 Break Out Activity 1: Using let vs. const
 
 // Properly declare "x" using "const"
 
-    const x;
+    // const x = 5;
 
-    const x = 5;
-
-    const x;
-
-    console.log(`Success! x = ${x}`);
+    // console.log(`Success! x = ${x}`);
 
 // Properly declare "y" using "let"
 
     // 🚨 Uncomment the code below to continue:
 
-    // let y;
-
     // let y = 5; 
-
-    // let y;
 
     // console.log(`Success! y = ${y}`);
 
@@ -33,10 +32,6 @@ console.log("Check Your Answers Here!");
     // 🚨 Uncomment the code below to continue:
 
     // const a = 2;
-    
-    // a = 2;
-    
-    // let b;
     
     // let b = 4
     
@@ -47,17 +42,17 @@ console.log("Check Your Answers Here!");
     // 🚨 Uncomment the code below to continue:
 
     // 🚧 Set a value for "time" between 0 and 24
-    // let time;
+    // let time = 15;
 
     // 💡 If "time" is less than or equal to 12...
-    // if (❓) {
+    // if (time <= 12) { 
 
-        // console.log(`${time} is in the AM.`)
+    //     console.log(`${time} is in the AM.`)
 
     // 💡 In all other cases...
     // } else {
 
-        // console.log(`${time} is in the PM.`)
+    //     console.log(`${time} is in the PM.`)
 
     // }
 
@@ -79,15 +74,29 @@ console.log("Check Your Answers Here!");
     // 🚨 Uncomment the code below to continue
 
     // 🚨 Assign a value to "marks" between 0 and 100
-    // let marks;
+    let marks;
 
     // 🚨 Format your if...else if...else conditional below
-    // if () {
-
-    // } else if () {
-
-    // ...
+    if (marks > 90) {
+        console.log("AA")
+    } else if (marks > 80 && marks <= 90) {
+        console.log("AB")
     
-    // } else {
-
-    // }
+    } else if (marks > 70 && marks <= 80) {
+        console.log("BB")
+    
+    } else if (marks > 60 && marks <= 70) {
+        console.log("BC")
+    
+    } else if (marks > 50 && marks <= 60) {
+        console.log("CC")
+    
+    } else if (marks > 40 && marks <= 50) {
+        console.log("CD")
+    
+    } else if (marks > 30 && marks <= 40) {
+        console.log("DD")
+    
+    } else {
+        console.log("FF")
+    }

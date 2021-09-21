@@ -3,9 +3,12 @@
 // ✅ Defining Functions
 
     // define a function 'printTemp' using function declaration that returns 'Today's temperature is 90 degrees fahrenheit'
-
+function printTemp(temp) {
+    let temp = 90
+    return temp
+}
         // 💡 Check Answer: 
-        // console.log(printTemp());
+        console.log(printTemp());
 
     // define a function 'printTemp' using function expression that returns 'Today's temperature is 90 degrees fahrenheit'
 
